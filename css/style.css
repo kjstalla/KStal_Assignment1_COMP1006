@@ -1,0 +1,213 @@
+html, body { /* starting styles */
+  background-color:  white;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* gets rid of excess horizontal scroll */
+  width: 100%;
+  height: 100%;
+}
+
+.header { /* homepage header */
+  width: 100%;
+  height: 150px; 
+  background-color: black; 
+  color:white;
+  display: flex; /* positions side by side */
+  justify-content: flex-start; 
+  align-items: center;
+  padding: 0 20px; 
+  font-size: 24px;
+}
+
+.header1 { /* add.php header */
+  width: 100%;
+  height: 150px; 
+  background-color: black; 
+  color:white;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 0 20px; 
+  font-size: 24px;
+}
+
+.logotitle { /* homepage logo text */
+  display: flex;
+  align-items: center;
+  margin-right: 50px; 
+}
+
+.logotitle img { /* homepage logo */
+  margin: 15px;
+  margin-bottom: 5px;
+}
+
+.logotitle2 { /* add.php logo tex */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logotitle2 img { /* add.php logo */
+  margin: 15px;
+  margin-bottom: 5px;
+}
+
+nav { /* navigation */
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-menu { 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-menu li {
+  margin-left: 20px;
+}
+
+.nav-menu li a { 
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+
+.nav-menu li a:hover { 
+  color: rgb(81, 150, 219); /* changes to company colour when hovered over */
+}
+
+.header h1 { /* header */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  color: white;
+}
+
+.form { /* form */
+  padding: 3%;
+  background-color: rgb(247, 247, 247);
+  border-radius: 50px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  margin: 50px;
+}
+
+.form h2 {
+  font-size: 3em;
+  text-align: center;
+}
+
+.form .form-group {
+  margin: 15px 0px;
+}
+
+.form .btn { /* form buttons */
+  background-color: rgb(81, 150, 219); 
+  color: black;
+  border-radius: 10px;
+  padding: 15px 30px; 
+  font-size: 18px;
+}
+
+.form .btn:hover {
+  background-color: white;
+  cursor: grab;
+}
+
+.submit-message{
+  text-align: center;
+}
+
+.dual-images { /* side by side images */
+  display: flex;
+  width: 100%;
+}
+
+.dual-images img {
+  width: 50%; /* each photo will take up 50 percent of the width, both of them make up the full width of the page */
+  object-fit: cover;
+}
+
+.single-image { /* single image */
+  width: 100%;
+}
+
+.single-image img {
+  width: 100%; /* will take up 100 percent of the width */
+  object-fit: cover; 
+}
+
+.sidebyside { /* places the form next to the next side by side */
+  display: flex;
+}
+
+.text { /* holds all the print text */
+  margin: 30px;
+  font-size: 25px;
+}
+
+.text h3 {
+  text-align: center;
+}
+
+footer { /* footer */
+  text-align: center;
+  font-size: 20px;
+}
+
+.pictures { /* stores two pictures below the text */
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px; 
+}
+
+.pictures img {
+  max-width: 100%;
+  height: auto;
+  max-height: 400px;
+}
+
+.success { /* success message styling for add.php */
+  background-color: green;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  margin: 20px auto;
+  margin-top: 150px;
+  width: 80%;
+  max-width: 600px;
+}
+
+.error { /* error message styling for add.php */
+  background-color: red; 
+  color: white;
+  padding: 15px;
+  border: 100px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  margin: 20px auto;
+  margin-top: 150px;
+  width: 80%;
+  max-width: 600px;
+}
+
+a { /* styles all links */
+  display: block;
+  margin-top: 15px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover { 
+  text-decoration: underline; /* adds a underline when hovered over */
+}
